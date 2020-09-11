@@ -1,74 +1,45 @@
-/*import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App; */
-
 import React from 'react'
 import {
     BrowserRouter as Router,
     Switch, Route, Link
 } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import axios from 'axios';
 
 import Add from './components/Add'
 import Home from './components/Home'
 import List from './components/List'
 
-/*const Notes = () => {
-
-    return(
-        <div>
-            <p>Valinta 1.</p>
-        </div>
-    )
-} */
-
-/*const Users = () => {
-
-    return(
-        <div>
-            <p>Valinta 2.</p>
-        </div>
-    )
-}*/
-
-/*const Home = () => {
-    return(
-        <div>
-            <p>Koti</p>
-        </div>
-    )
-}*/
-
 const App = () => {
+
+    const [events, setEvents] = useState([]);
+
+    useEffect(() => {
+        getData();
+    }, []);
+
+    const getData = () => {
+      const baseUrl = 'http://localhost:3001/events';
+      const request = axios.get(baseUrl);
+      request
+        .then( response => {
+            setEvents(response.data);
+      })
+
+    };
 
     const padding = {
         padding: 5
-    }
+    };
+
+    // const debug = (e) => {
+    //     e.preventDefault();
+    //     console.log(events.length);
+    // };
 
     return (
         <div className="container">
+            {/*<button onClick={debug}>debug</button>*/}
             <Router>
                 <div>
                     <Link style={padding} to="/">home</Link>
@@ -78,10 +49,13 @@ const App = () => {
 
                 <Switch>
                     <Route path="/add">
-                        <Add />
+                        <Add
+                          events={events}
+                          setEvents={setEvents}
+                        />
                     </Route>
                     <Route path="/list">
-                        <List />
+                        <List events={events} />
                     </Route>
                     <Route path="/">
                         <Home />
@@ -95,6 +69,6 @@ const App = () => {
             </Router>
         </div>
     )
-}
+};
 
 export default App

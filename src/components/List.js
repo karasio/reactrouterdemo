@@ -1,39 +1,38 @@
 import React from "react";
 import { Table } from 'react-bootstrap'
+import Event from './Event';
 
-const List = () => {
+const List = ({events}) => {
 
-    return(
-        <div className="container">
-            {/* A JSX comment */}
+    const rows = () => events.map(event =>
+      <Event
+        key={event.id}
+        event={event}
+      />
+    );
 
-            {/* <div>
-                <p>Valinta 2.</p>
-            </div>
-            */}
-            <Table striped>
-            <tbody>
-                <tr>
-                    <td>
-                        <p>1. rivi</p>
-                    </td>
-                    <td>
-                        <p>kdfjhfdkjhsfdkjh</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>2. rivi</p>
-                    </td>
-                    <td>
-                        <p>jhgkjdkgjgdkjhdgk</p>
-                    </td>
-                </tr>
-            </tbody>
-            </Table>
+    const theadStyle = {
+      fontSize: 'larger',
+      fontWeight: 'bold'
+    };
 
-        </div>
+
+    return (
+      <div className="container">
+          <Table striped>
+            <thead style={theadStyle}>
+            <tr>
+              <td>Mitä?</td>
+              <td>Missä?</td>
+              <td>Koska?</td>
+            </tr>
+            </thead>
+              <tbody>
+              {rows()}
+              </tbody>
+          </Table>
+      </div>
     )
-}
+};
 
 export default List

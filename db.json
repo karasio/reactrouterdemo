@@ -1,0 +1,116 @@
+{
+  "events": [
+    {
+      "name": "Suviseurat",
+      "location": "Lempäälä",
+      "dateStart": "30.6.2002",
+      "dateEnd": "04.07.2002",
+      "id": 1
+    },
+    {
+      "name": "Verenluovutus",
+      "location": "Kuhmo",
+      "dateStart": "09.09.2020",
+      "dateEnd": "09.09.2020",
+      "id": 2
+    },
+    {
+      "name": "Etämuistikahvila",
+      "location": "Kouvola",
+      "dateStart": "09.09.2020",
+      "dateEnd": "03.12.2020",
+      "id": 3
+    },
+    {
+      "name": "Lasse hoikka & Souvarit päivätanssit ja -konsertit Saariselän ruskaviikoilla",
+      "location": "Inari",
+      "dateStart": "09.09.2020",
+      "dateEnd": "09.09.2020",
+      "id": 4
+    },
+    {
+      "name": "Jooga Siralin avajaiset",
+      "location": "Lappeenranta",
+      "dateStart": "13.09.2020",
+      "dateEnd": "13.09.2020",
+      "id": 5
+    },
+    {
+      "name": "Perhekerho",
+      "location": "Tampere",
+      "dateStart": "09.09.2020",
+      "dateEnd": "25.11.2020",
+      "id": 6
+    },
+    {
+      "name": "Koiran synttärit",
+      "location": "Koti",
+      "dateStart": "17.09.2020",
+      "dateEnd": "17.09.2020",
+      "id": 7
+    },
+    {
+      "name": "Jannen Kirjakerho",
+      "location": "Kauniainen",
+      "dateStart": "20.09.2020",
+      "dateEnd": "20.09.2020",
+      "id": 8
+    },
+    {
+      "name": "Kallen Lakkiaiset",
+      "location": "Espoo",
+      "dateStart": "01.11.2020",
+      "dateEnd": "01.11.2020",
+      "id": 9
+    },
+    {
+      "name": "Rymättylän Hattuhuutokauppa",
+      "location": "Rymättylä",
+      "dateStart": "12.12.2020",
+      "dateEnd": "12.12.2020",
+      "id": 10
+    },
+    {
+      "name": "Kalaretki",
+      "location": "Merenkurkku",
+      "dateStart": "31.12.2020",
+      "dateEnd": "01.01.2021",
+      "id": 11
+    },
+    {
+      "name": "Prisma Avajaiset",
+      "location": "Kainuu",
+      "dateStart": "21.10.2020",
+      "dateEnd": "22.10.2020",
+      "id": 12
+    },
+    {
+      "name": "Kalaretki",
+      "location": "Järvenpää",
+      "dateStart": "14.09.2020",
+      "dateEnd": "14.09.2020",
+      "id": 13
+    },
+    {
+      "name": "Temppelinaukion joulukonsertti",
+      "location": "Helsinki",
+      "dateStart": "18.12.2020",
+      "dateEnd": "18.12.2020",
+      "id": 14
+    },
+    {
+      "name": "Pride-marssi",
+      "location": "Helsinki",
+      "dateStart": "27.06.2020",
+      "dateEnd": "27.06.2020",
+      "id": 15
+    },
+    {
+      "name": "Juhannustanssit",
+      "location": "Lohjansaari",
+      "dateStart": "26.06.2021",
+      "dateEnd": "27.06.2021",
+      "id": 16
+    }
+  ]
+}
