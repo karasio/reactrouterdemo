@@ -6,13 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e27c6b4-796c-49a4-90e5-a859aa281cf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +121,8 @@
       <workItem from="1598602014775" duration="2262000" />
       <workItem from="1599116090165" duration="4892000" />
       <workItem from="1599647609131" duration="2024000" />
-      <workItem from="1599807559080" duration="7948000" />
+      <workItem from="1599807559080" duration="8551000" />
+      <workItem from="1600528419792" duration="3215000" />
     </task>
     <task id="LOCAL−00001" summary="a simple menu with React">
       <created>1599124007693</created>

@@ -14,6 +14,7 @@ const App = () => {
 
     const [events, setEvents] = useState([]);
 
+
     useEffect(() => {
         getData();
     }, []);

@@ -111,6 +111,41 @@
       "dateStart": "26.06.2021",
       "dateEnd": "27.06.2021",
       "id": 16
+    },
+    {
+      "name": "Markkinat",
+      "location": "Lohjan Tori",
+      "dateStart": "07.11.2020",
+      "dateEnd": "20.09.2020",
+      "id": 17
+    },
+    {
+      "name": "Menneen Ajan Markkinat",
+      "location": "Lohja",
+      "dateStart": "11.12.2020",
+      "dateEnd": "13.12.2020",
+      "id": 18
+    },
+    {
+      "name": "Asemanpellon Koulun Joulumyyjäiset",
+      "location": "Lohja",
+      "dateStart": "13.12.2020",
+      "dateEnd": "13.12.2020",
+      "id": 19
+    },
+    {
+      "name": "Presidentinvaalit",
+      "location": "Suomi",
+      "dateStart": "19.03.2021",
+      "dateEnd": "19.03.2021",
+      "id": 20
+    },
+    {
+      "name": "Ilosaarirock",
+      "location": "Joensuu",
+      "dateStart": "15.07.2021",
+      "dateEnd": "15.07.2021",
+      "id": 21
     }
   ]
 }
